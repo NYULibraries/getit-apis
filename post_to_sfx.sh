@@ -3,6 +3,7 @@
 curl -X POST "http://sfx.library.nyu.edu/sfxlcl41?" \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'url_ctx_fmt="info:ofi/fmt:xml:xsd:ctx"' \
+  -d 'sfx.response_type=multi_obj_xml' \
   -d 'url_ctx_val=<?xml version="1.0" encoding="UTF-8" ?>
   <ctx:context-objects xmlns:ctx="info:ofi/fmt:xml:xsd:ctx"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:ofi/fmt:xml:xsd:ctx http://www.openurl.info/registry/docs/info:ofi/fmt:xml:xsd:ctx">
