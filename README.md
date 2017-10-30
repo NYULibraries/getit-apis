@@ -16,6 +16,8 @@ Pass in ContextObject XML and get "services" from SFX back, https://developers.e
 
 See the umlaut service adapter https://github.com/team-umlaut/umlaut/blob/master/app/service_adaptors/sfx.rb
 
+http://sfx.library.nyu.edu/sfxlcl41/cgi/core/openurl-generator.cgi?rft.genre=inlineXML
+
 ### ContextObject XML to JSON
 
 Map SFX's response to a JSON object
